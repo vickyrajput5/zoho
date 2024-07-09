@@ -1,0 +1,76 @@
+.list-view-container {
+  padding: 20px;
+}
+
+.list-view {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.list-item div {
+  text-align: center;
+}
+
+.list-item div:first-child {
+  text-align: left;
+}
+.list-heading div {
+  padding: 5px;
+  text-align: center;
+}
+.list-heading div:first-child {
+  text-align: left;
+}
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+}
+.tabular-view-container {
+  padding: 20px;
+}
+
+.tabular-view {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.tabular-view th,
+.tabular-view td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.tabular-view th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.tabular-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabular-row:hover {
+  background-color: #f1f1f1;
+}

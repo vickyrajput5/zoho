@@ -1,0 +1,10 @@
+.CardsEmployee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addBtn{
+    cursor: pointer;
+    float: right;
+}
+

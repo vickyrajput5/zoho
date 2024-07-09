@@ -1,0 +1,17 @@
+.popup{
+    width: 400px !important;
+    height: 400px !important;
+}
+.inputError{
+    border: 1.5px solid #dc3545 !important;
+}
+.pr{
+    position:  relative !important;
+}
+.form-error{
+    position: absolute;
+    bottom: -18px;
+    font-size: 12px;
+    left: 0px;
+    color:#dc3545;
+}
